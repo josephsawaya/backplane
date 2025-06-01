@@ -1,0 +1,31 @@
+{
+  "name": "backplane",
+  "displayName": "Backplane Theme",
+  "description": "A nifty theme I made (with the help of AI)",
+  "version": "0.0.1",
+  "publisher": "josephsawaya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephsawaya/backplane-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Backplane",
+        "uiTheme": "vs-dark",
+        "path": "./themes/backplane.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/test-electron": "^2.2.3",
+    "@vscode/vsce": "^2.15.0"
+  }
+}
